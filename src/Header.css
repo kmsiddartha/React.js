@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  height: fit-content;
+  border-bottom: 2px solid lightgray;
+}
+.div1 {
+  display: flex;
+}
+h1 {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.icon {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.div2 {
+  justify-content: space-between;
+  position: relative;
+  left: 800px;
+  top: 15px;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  height: fit-content;
+}
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ph {
+  position: relative;
+  top: 5px;
+}
+.lap {
+  position: relative;
+  top: 8px;
+}

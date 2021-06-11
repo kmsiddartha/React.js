@@ -1,0 +1,29 @@
+.main {
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid lightgray;
+  height: 717px;
+  border-right: 0;
+}
+.main > img {
+  margin-top: 15px;
+  height: 80px;
+  width: 85px;
+}
+.main > button {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background-color: white;
+  border: 0px;
+  padding-top: 10px;
+  height: 80px;
+  width: 80px;
+}
+.button:hover {
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+}

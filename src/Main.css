@@ -1,0 +1,137 @@
+.comp {
+  padding: 40px;
+  background-color: lightgray;
+  height: 564px;
+  font-size: 10.5px;
+}
+.maincomp {
+  background-color: white;
+  height: 540px;
+  display: flex;
+}
+
+h4 {
+  margin-top: 5px;
+}
+.right {
+  width: 1090px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  background-color: grey;
+  border-radius: 20px;
+  width: 10px;
+}
+.audience {
+  width: max-content;
+  position: relative;
+  left: 300px;
+  top: 100px;
+  margin-bottom: 10px;
+}
+.audience > h4 {
+  color: gray;
+}
+.top {
+  display: flex;
+  position: relative;
+  left: 300px;
+  top: 30px;
+  border-bottom: 2px solid lightgray;
+  width: max-content;
+}
+.top h2 {
+  position: relative;
+  bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: blueviolet;
+}
+.topicon {
+  margin-left: 300px;
+}
+.audienceicon {
+  position: relative;
+  left: 300px;
+}
+.rightcontent {
+  width: max-content;
+}
+.bottom {
+  display: flex;
+  position: relative;
+  bottom: 60px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 380px;
+  top: 100px;
+  width: 390px;
+}
+.but {
+  margin-bottom: 25px;
+}
+.on {
+  color: lightgreen;
+}
+.cancel {
+  position: relative;
+  left: 1040px;
+  top: 15px;
+}
+.save {
+  position: relative;
+  left: 950px;
+  top: 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-size: large;
+}
+.que {
+  background-color: white;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.que:hover {
+  background-color: blueviolet;
+  color: white;
+}
+.last {
+  position: relative;
+  top: 50px;
+}
+.forumicon {
+  color: blueviolet;
+}
+.left {
+  position: relative;
+  left: 10px;
+  top: 0px;
+  padding-right: 20px;
+  border-right: 2px solid lightgrey;
+}
+.lefticon {
+  position: relative;
+  bottom: 3px;
+  left: 7px;
+}
+.left > h3 {
+  margin-bottom: 10px;
+}
+.left > h2 {
+  display: flex;
+}
+.lefttop {
+  border-bottom: 2px solid lightgrey;
+}
+.lefttop > h2 {
+  color: grey;
+}
